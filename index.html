@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1>Music Player</h1>
+
+    <div class="music-container">
+        <div class="img-container">
+            <img src="img/Inspire.jpg" alt="cover" id="cover">
+        </div>
+
+        <div class="title" id="title">Inspire</div>
+
+        <div class="progress-container">
+            <div class="progress">
+                <div class="progress-circle"></div>
+            </div>
+        </div>
+
+        <div class="navigation">
+
+            <button id="prev" class="action-btn">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <div class="play-circle" id="play-circle">
+                <div id="play" class="action-btn action-btn-big">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <button id="next" >
+                <i class="fas fa-step-forward"></i>
+            </button>
+        </div>
+
+        <audio id="audio" src="music/adventure.mp3"></audio>
+    </div>
+    
+
+   
+
+    <script src="js/app.js" id="audio"></script>
+</body>
+</html>
